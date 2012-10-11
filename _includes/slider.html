@@ -1,0 +1,12 @@
+<div class="alpha column_12 omega">
+<ul id="slider1">
+  {% for post in site.posts %}
+  <li>
+  <div class="bx-caption">{{post.title}}</div>
+  <div class="bx-image">
+    <img src="img/{{post.keyphoto}}" alt="{{post.title}}"/>
+  </div>
+  </li>
+  {% endfor %}
+</ul>
+</div>
