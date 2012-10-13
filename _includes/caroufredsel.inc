@@ -1,7 +1,7 @@
-<link href='css/caroufredsel.css' rel='stylesheet' type='text/css' />
+<link href='{{site.url}}/css/caroufredsel.css' rel='stylesheet' type='text/css' />
 <!--<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>-->
-<script src="js/jquery-1.8.1.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery.carouFredSel-6.0.0-packed.js"></script>
+<script src="{{site.url}}/js/jquery-1.8.1.min.js" type="text/javascript"></script>
+<script src="{{site.url}}/js/jquery.carouFredSel-6.0.0-packed.js" type="text/javascript" ></script>
 <script>
 $(document).ready(function() {
     var settings = {
