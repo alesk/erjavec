@@ -40,7 +40,6 @@ body {
 }
 
 #footer {
-    padding:40px 20px;
     background-color: #333;
     background-image: linear-gradient(top, #333, #111);
     background-image: -webkit-linear-gradient(top, #333, #111);
@@ -52,7 +51,20 @@ body {
 }
 
 #footer h3 {
+   margin:20px 0 10px 0;
+   font-size:14px;
+   color: #bbb;
+   font-weight:bold;
+}
+
+#footer p {
+   margin:0 0 4px 0;
    font-size:12px;
+   color: #999;
+}
+
+#footer a, #footer a:visited {
+  color: #9aa;
 }
 
 
@@ -68,4 +80,9 @@ body {
 
 .key-image {
   border:6px solid #333;
+}
+
+.slider-image {
+  width: 306px;
+  height: 211px;
 }

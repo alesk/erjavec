@@ -14,14 +14,15 @@ $(document).ready(function() {
       circular: true,
       infinite: true,
       responsive: true,
-      height: 256,
+      height: 250,
       width:960,
       auto 	: true,
-      duration:1000,
       pauseonHover: "immediate",
+      duration:500,
       scroll: {
         items: 1,
-        easing: "linear"
+        duration:800,
+        easing: "swing"
       }
     };
 
