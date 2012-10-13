@@ -1,7 +1,7 @@
 <div class="image_carousel">  
   <div id="slider">
     {% for post in site.posts %}
-    <img src="img/{{post.keyphoto}}" alt="{{post.title}}" class="clickable"  data-url="{{site.url}}{{post.url}}"/>
+    <img src="{{site.url}}/img/{{post.keyphoto}}.jpeg" alt="{{post.title}}" class="clickable"  data-url="{{site.url}}{{post.url}}"/>
     {% endfor %}
     <div class="clearfix"></div>
   </div>
